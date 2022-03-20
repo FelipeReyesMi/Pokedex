@@ -78,6 +78,12 @@ body {
 }
 
 @media (max-width: 700px) {
+   .pokedex img {
+        width: 450px; /*ancho*/
+        height: 150px; /*altura*/
+        margin: auto;
+        display: block;
+      }
   .poke-card .fondo {
     position: relative;
     width: 0%; /*ancho*/
@@ -99,20 +105,20 @@ body {
     /*posicion del imput para ingresar el nombre del pokemos*/
     position: absolute;
     left: 8.5%;
-    top: 129%;
+    top: 100%;
   }
 
   .img-container {
     /*posicion de la imagen del pokemos y su nombre*/
     position: absolute;
     left: 28%;
-    top: 66.5%;
+    top: 50%;
   }
 
   .poke-img {
     /*tamaño que tiene la imagen*/
-    width: 110%;
-    right: 110%;
+    width: 105%;
+    right: 105%;
   }
 
   .name {
@@ -128,11 +134,11 @@ body {
     /*Posicion de los datos del pokemon*/
     position: absolute;
     left: 40%;
-    top: 180%;
+    top: 140%;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .icono img {
