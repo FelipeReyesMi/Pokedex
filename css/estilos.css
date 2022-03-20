@@ -77,7 +77,7 @@ body {
   top: -9%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
    .pokedex img {
         width: 450px; /*ancho*/
         height: 150px; /*altura*/
