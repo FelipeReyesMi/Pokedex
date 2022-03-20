@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #00b5d4;
+}
+
+.pokedex img {
+  width: 480px; /*ancho*/
+  height: 100px; /*altura*/
+  margin: auto;
+  display: block;
+}
+
+.poke-card {
+  /*posicion de la imagen de fondo*/
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  top: 28%;
+}
+.poke-card .fondo2 {
+  width: 0%; /*ancho*/
+  height: 0%; /*altura*/
+}
+
+.poke-card .fondo3 {
+  width: 0%; /*ancho*/
+  height: 0%; /*altura*/
+}
+.texto {
+  /*posicion del imput para ingresar el nombre del pokemos*/
+  position: absolute;
+  left: 12%;
+  top: 142%;
+}
+
+.img-container {
+  /*posicion de la imagen del pokemos y su nombre*/
+  position: absolute;
+  left: 19%;
+  top: 70%;
+}
+
+.poke-img {
+  /*tamaño que tiene la imagen*/
+  width: 140%;
+  right: 140%;
+}
+
+.name {
+  /*Tamaño y tipo de letro del nombre del pokemon*/
+  font-size: 200%;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.datos {
+  /*Posicion de los datos del pokemon*/
+  position: absolute;
+  left: 68%;
+  top: 76%;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.icono img {
+  /*tamaño de los iconos de los datos*/
+  left: -90%;
+  position: absolute;
+  width: 60%;
+  top: -9%;
+}
+
+@media (max-width: 700px) {
+  .poke-card .fondo {
+    position: relative;
+    width: 0%; /*ancho*/
+    height: 0%; /*altura*/
+  }
+  .poke-card .fondo2 {
+    position: relative;
+    width: 100%; /*ancho*/
+    height: 100%; /*altura*/
+  }
+
+  .poke-card .fondo3 {
+    position: relative;
+
+    width: 100%; /*ancho*/
+    height: 100%; /*altura*/
+  }
+  .texto {
+    /*posicion del imput para ingresar el nombre del pokemos*/
+    position: absolute;
+    left: 8.5%;
+    top: 129%;
+  }
+
+  .img-container {
+    /*posicion de la imagen del pokemos y su nombre*/
+    position: absolute;
+    left: 28%;
+    top: 66.5%;
+  }
+
+  .poke-img {
+    /*tamaño que tiene la imagen*/
+    width: 110%;
+    right: 110%;
+  }
+
+  .name {
+    /*Tamaño y tipo de letro del nombre del pokemon*/
+    font-size: 200%;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+  }
+
+  .datos {
+    /*Posicion de los datos del pokemon*/
+    position: absolute;
+    left: 40%;
+    top: 180%;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+  }
+
+  .icono img {
+    /*tamaño de los iconos de los datos*/
+    left: -100%;
+    position: absolute;
+    width: 55%;
+  }
+}

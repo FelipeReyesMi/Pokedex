@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+    </script>
+    
+    <script src="pokedex.js" type="text/javascript" defer></script>
+    <link rel="icon" href="imagenes/Pokeball.png">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="#">Pokedex</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Acerca de nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Novedades</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Datos Curiosos</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+        <div class="pokedex">
+            <img src="imagenes/pokedex.jpg" alt="">
+        </div>
+
+
+    <div data-poke-card class="poke-card">
+        <img class="fondo" src="imagenes/fondo.png" alt="">
+        <img class="fondo2" src="imagenes/fondo 2.png" alt="">
+        <br><br>
+        <img class="fondo3" src="imagenes/fondo 3.png" alt="">
+
+    </div>
+    <div class="texto">
+        <form action="" onsubmit="searchPokemon(event)">
+
+            <input type="text" name="pokemon" autocomplete="off">
+        </form>
+
+    </div>
+
+    <div data-poke-img-container class="img-container">
+        <div class="name" data-poke-name></div>
+        <img data-poke-img class="poke-img" src="" />
+
+    </div>
+
+    <div class="datos">
+        <div class="icono">
+            <img src="imagenes/fondo2.png" alt="">
+        </div>
+        <div data-poke-id></div>
+        <div data-poke-types class="poke-types"></div>
+        <div data-poke-stats class="poke-stats"></div>
+    </div>
+</html>
