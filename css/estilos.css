@@ -105,14 +105,14 @@ body {
     /*posicion del imput para ingresar el nombre del pokemos*/
     position: absolute;
     left: 8.5%;
-    top: 95%;
+    top: 97%;
   }
 
   .img-container {
     /*posicion de la imagen del pokemos y su nombre*/
     position: absolute;
     left: 28%;
-    top: 70%;
+    top: 68%;
   }
 
   .poke-img {
@@ -134,7 +134,7 @@ body {
     /*Posicion de los datos del pokemon*/
     position: absolute;
     left: 40%;
-    top: 130%;
+    top: 133%;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
