@@ -112,13 +112,13 @@ body {
     /*posicion de la imagen del pokemos y su nombre*/
     position: absolute;
     left: 28%;
-    top: 57%;
+    top: 55%;
   }
 
   .poke-img {
     /*tamaño que tiene la imagen*/
-    width: 94%;
-    right: 94%;
+    width: 90%;
+    right: 90%;
   }
 
   .name {
